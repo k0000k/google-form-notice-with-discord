@@ -32,7 +32,11 @@ function postFromSpreadsheet() {
 
   if (currentMessage == "") return
 
-  const columnOffsets = sheet.getLastColumn() - messageColumn
+  let columnOffsets = sheet.getLastColumn() - messageColumn
+
+  if (messageCall.offset(0, columnOffsets).getValue() != "") {
+    columnOffsets += 1
+  }
 
    if (messageCall.offset(0, columnOffsets).getValue() != "posted") {
      postToDiscord(currentMessage, url, sheetName)
