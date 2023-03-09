@@ -17,8 +17,10 @@
 ![image](https://user-images.githubusercontent.com/84006880/222891203-78dc3604-9a95-4804-a45a-6abc4c0f0fb0.png)
 <br><br><br><br><br>
 4. 코드를 저장 한 뒤 실행 버튼을 누르면, 구글 계정으로 로그인하여 액세스를 허용하는 절차를 거칩니다. 로그인 - 고급 - (프로젝트 이름)으로 이동을 클릭하여 액세스를 허용합니다.
-
 ![image](https://user-images.githubusercontent.com/84006880/222894413-94af85df-bbd2-4d06-a980-0e92dfd6fecc.png)
 <br><br><br><br><br>
 5. 실행을 확인한 뒤, 트리거를 시간 기반으로 적절하게 설정합니다.
 ![image](https://user-images.githubusercontent.com/84006880/222891251-c55a2724-c999-470f-b2de-4c852b723f55.png)
+<br><br><br><br><br>
+6. 새로운 응답이 들어오면 아래와 같이 디스코드 알림을 받을 수 있습니다.
+![image](https://user-images.githubusercontent.com/84006880/223897220-0d61c132-a752-4010-b67a-dbfb581830cb.png)
